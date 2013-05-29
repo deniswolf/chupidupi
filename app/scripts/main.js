@@ -25,5 +25,10 @@ require(['app', 'jquery', 'bootstrap'], function (app, $) {
             $('#dupi').removeClass().addClass('animated lightSpeedIn');
         }, 1300);
 
+        setTimeout(function () {
+            $('#chupi, #dupi').removeClass().addClass('animated wiggle');
+        }, 2200);
+
+
     });
 });
