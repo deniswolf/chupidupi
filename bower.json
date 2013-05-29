@@ -4,6 +4,7 @@
   "dependencies": {
     "requirejs": "git://github.com/jrburke/requirejs#2.1.6",
     "modernizr": "git://github.com/Modernizr/Modernizr.git#2.6.2",
-    "jquery": "git://github.com/components/jquery.git#2.0.1"
+    "jquery": "git://github.com/components/jquery.git#2.0.1",
+    "animate.css": "latest"
   }
 }
