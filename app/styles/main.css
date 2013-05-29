@@ -17,8 +17,12 @@ body {
     font-family: "Segoe UI", "Segoe WP", "Helvetica Neue", sans-serif;
     text-rendering: optimizelegibility;
 
+    position: relative;
+    z-index: 999;
+    pointer-events: none;
 }
 .chupi, .dupi {
+    display: inline-block;
     vertical-align: middle;
     text-align: center;
     font-size: 7em;
@@ -32,4 +36,8 @@ body {
 .dupi {
     font-weight: 300;
     color: orange;
+}
+
+.hidden {
+    visibility: hidden;
 }

@@ -14,6 +14,16 @@ require.config({
 require(['app', 'jquery', 'bootstrap'], function (app, $) {
     'use strict';
     // use app here
-    console.log(app);
-    console.log('Running jQuery %s', $().jquery);
+//    console.log(app);
+//    console.log('Running jQuery %s', $().jquery);
+    $('document').ready(function(){
+        setTimeout(function () {
+            $('#chupi').removeClass().addClass('animated bounceIn');
+        }, 300);
+
+        setTimeout(function () {
+            $('#dupi').removeClass().addClass('animated lightSpeedIn');
+        }, 1300);
+
+    });
 });
